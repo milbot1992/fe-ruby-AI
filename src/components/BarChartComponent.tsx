@@ -15,7 +15,7 @@ interface BarChartComponentProps {
     value: number;
     lowerCI: number;
     upperCI: number;
-    indicatorName: string; // Added prop for indicator name
+    indicatorName: string; 
 }
 
 const BarChartComponent: React.FC<BarChartComponentProps> = ({ value, lowerCI, upperCI, indicatorName }) => {
@@ -26,11 +26,12 @@ const BarChartComponent: React.FC<BarChartComponentProps> = ({ value, lowerCI, u
             <BarChart 
                 data={data}
                 margin={{ right: 100, top: 30, bottom: 20 }}
+                className="border border-blue-300 rounded-lg"
             >
-                <XAxis dataKey="name" /> {/* Use 'name' to show Indicator Name dynamically */}
+                <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
-                <Bar dataKey="Value" fill="#8884d8" />
+                <Bar dataKey="Value" fill="#4F83F1" />
                 
                 <ReferenceLine 
                     y={lowerCI} 
