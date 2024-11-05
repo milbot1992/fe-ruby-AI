@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Local Authority Data Insights
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project serves as the front end for an API that delivers statistical analysis and insights for different Local Authorities, focusing on specific indicators. The API integrates with OpenAI's GPT model to generate commentary and insights based on statistical data, providing a user-friendly interface for exploring and analysing important metrics.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Data Fetching**: Fetch specific statistical data and commentary for a given Local Authority and Indicator.
+- **Statistical Analysis**: Analyse mortality rates, confidence intervals, z-scores, and other statistical metrics for insights.
+- **GPT-Powered Commentary**: Generate GPT-powered commentary with succinct and research-style bullet points on the selected data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static types, making code more predictable and easier to debug.
+- **Tailwind CSS**: A utility-first CSS framework for designing responsive and modern user interfaces.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/local-authority-data-insights.git
+   cd local-authority-data-insights
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Install the necessary dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  Start the development server:
 
-### `npm run eject`
+    `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3.  Open your browser and navigate to `http://localhost:3000` to view the application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+API Integration
+---------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This front end connects to the following backend APIs:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   **Fetch Local Authority Data**:
+    -   **Endpoint**: `https://ruby-ai-59uig4c9e-millie-ellis-projects.vercel.app/local_authority/{localAuthority}?indicator_name={indicatorName}`
+-   **Fetch Available Options**:
+    -   **Endpoint**: `https://ruby-ai-59uig4c9e-millie-ellis-projects.vercel.app/available_options`
 
-## Learn More
+Contributing
+------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+License
+-------
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### Notes:
+- Adjust the clone URL under "Getting Started" to your actual GitHub repository link.
+- Make sure to include any additional information or setup instructions that might be relevant to your project.
+- You can further expand the README with sections like "Usage," "Screenshots," or "FAQs" if necessary.`
