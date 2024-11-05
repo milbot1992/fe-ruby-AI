@@ -22,8 +22,8 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/local-authority-data-insights.git
-   cd local-authority-data-insights
+   git clone https://github.com/milbot1992/fe-ruby-AI.git
+   cd fe-ruby-AI
     ```
 
 1.  Install the necessary dependencies:
@@ -54,10 +54,4 @@ Contributions are welcome! If you have suggestions for improvements or want to a
 License
 -------
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-### Notes:
-- Adjust the clone URL under "Getting Started" to your actual GitHub repository link.
-- Make sure to include any additional information or setup instructions that might be relevant to your project.
-- You can further expand the README with sections like "Usage," "Screenshots," or "FAQs" if necessary.`
+This project is licensed under the MIT License.
