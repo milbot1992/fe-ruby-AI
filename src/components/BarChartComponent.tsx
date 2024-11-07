@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { type FC } from 'react';
 import {
     BarChart,
     Bar,
@@ -18,7 +18,7 @@ interface BarChartComponentProps {
     indicatorName: string; 
 }
 
-const BarChartComponent: React.FC<BarChartComponentProps> = ({ value, lowerCI, upperCI, indicatorName }) => {
+const BarChartComponent: FC<BarChartComponentProps> = ({ value, lowerCI, upperCI, indicatorName }) => {
     const data = [{ name: indicatorName, Value: value }];
 
     return (
