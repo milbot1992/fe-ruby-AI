@@ -1,4 +1,5 @@
 # Local Authority Data Insights
+Prototype: https://fe-ruby-ai.netlify.app/
 
 ## Overview
 
