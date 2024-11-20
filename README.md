@@ -51,3 +51,7 @@ Developers
 ------------
 
 Millie Ellis: https://github.com/milbot1992
+
+License
+------------
+The MIT License
