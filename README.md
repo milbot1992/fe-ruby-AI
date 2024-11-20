@@ -47,12 +47,7 @@ This front end connects to the following backend APIs:
 -   **Fetch Available Options**:
     -   **Endpoint**: `https://ruby-ai-59uig4c9e-millie-ellis-projects.vercel.app/available_options`
 
-Contributing
+Developers
 ------------
 
-Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and submit a pull request.
-
-License
--------
-
-This project is licensed under the MIT License.
+Millie Ellis: https://github.com/milbot1992
